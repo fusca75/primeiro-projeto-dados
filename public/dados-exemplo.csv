@@ -1,0 +1,201 @@
+id_venda,data,produto,categoria,regiao,quantidade,preco_unitario
+1,2025-01-01,X-Burger,Lanche,Norte,1,24.9
+2,2025-02-02,X-Bacon,Lanche,Sul,2,29.9
+3,2025-03-03,Batata Frita,Acompanhamento,Leste,3,14.9
+4,2025-04-04,Refrigerante,Bebida,Oeste,4,6.9
+5,2025-05-05,Milkshake,Sobremesa,Norte,1,16.9
+6,2025-06-06,X-Salada,Lanche,Sul,2,27.9
+7,2025-07-07,X-Burger,Lanche,Leste,3,24.9
+8,2025-08-08,X-Bacon,Lanche,Oeste,4,29.9
+9,2025-09-09,Batata Frita,Acompanhamento,Norte,1,14.9
+10,2025-10-10,Refrigerante,Bebida,Sul,2,6.9
+11,2025-11-11,Milkshake,Sobremesa,Leste,3,16.9
+12,2025-12-12,X-Salada,Lanche,Oeste,4,27.9
+13,2025-01-13,X-Burger,Lanche,Norte,1,24.9
+14,2025-02-14,X-Bacon,Lanche,Sul,2,29.9
+15,2025-03-15,Batata Frita,Acompanhamento,Leste,3,14.9
+16,2025-04-16,Refrigerante,Bebida,Oeste,4,6.9
+17,2025-05-17,Milkshake,Sobremesa,Norte,1,16.9
+18,2025-06-18,X-Salada,Lanche,Sul,2,27.9
+19,2025-07-19,X-Burger,Lanche,Leste,3,24.9
+20,2025-08-20,X-Bacon,Lanche,Oeste,4,29.9
+21,2025-09-21,Batata Frita,Acompanhamento,Norte,1,14.9
+22,2025-10-22,Refrigerante,Bebida,Sul,2,6.9
+23,2025-11-23,Milkshake,Sobremesa,Leste,3,16.9
+24,2025-12-24,X-Salada,Lanche,Oeste,4,27.9
+25,2025-01-25,X-Burger,Lanche,Norte,1,24.9
+26,2025-02-26,X-Bacon,Lanche,Sul,2,29.9
+27,2025-03-27,Batata Frita,Acompanhamento,Leste,3,14.9
+28,2025-04-01,Refrigerante,Bebida,Oeste,4,6.9
+29,2025-05-02,Milkshake,Sobremesa,Norte,1,16.9
+30,2025-06-03,X-Salada,Lanche,Sul,2,27.9
+31,2025-07-04,X-Burger,Lanche,Leste,3,24.9
+32,2025-08-05,X-Bacon,Lanche,Oeste,4,29.9
+33,2025-09-06,Batata Frita,Acompanhamento,Norte,1,14.9
+34,2025-10-07,Refrigerante,Bebida,Sul,2,6.9
+35,2025-11-08,Milkshake,Sobremesa,Leste,3,16.9
+36,2025-12-09,X-Salada,Lanche,Oeste,4,27.9
+37,2025-01-10,X-Burger,Lanche,Norte,1,24.9
+38,2025-02-11,X-Bacon,Lanche,Sul,2,29.9
+39,2025-03-12,Batata Frita,Acompanhamento,Leste,3,14.9
+40,2025-04-13,Refrigerante,Bebida,Oeste,4,6.9
+41,2025-05-14,Milkshake,Sobremesa,Norte,1,16.9
+42,2025-06-15,X-Salada,Lanche,Sul,2,27.9
+43,2025-07-16,X-Burger,Lanche,Leste,3,24.9
+44,2025-08-17,X-Bacon,Lanche,Oeste,4,29.9
+45,2025-09-18,Batata Frita,Acompanhamento,Norte,1,14.9
+46,2025-10-19,Refrigerante,Bebida,Sul,2,6.9
+47,2025-11-20,Milkshake,Sobremesa,Leste,3,16.9
+48,2025-12-21,X-Salada,Lanche,Oeste,4,27.9
+49,2025-01-22,X-Burger,Lanche,Norte,1,24.9
+50,2025-02-23,X-Bacon,Lanche,Sul,2,29.9
+51,2025-03-24,Batata Frita,Acompanhamento,Leste,3,14.9
+52,2025-04-25,Refrigerante,Bebida,Oeste,4,6.9
+53,2025-05-26,Milkshake,Sobremesa,Norte,1,16.9
+54,2025-06-27,X-Salada,Lanche,Sul,2,27.9
+55,2025-07-01,X-Burger,Lanche,Leste,3,24.9
+56,2025-08-02,X-Bacon,Lanche,Oeste,4,29.9
+57,2025-09-03,Batata Frita,Acompanhamento,Norte,1,14.9
+58,2025-10-04,Refrigerante,Bebida,Sul,2,6.9
+59,2025-11-05,Milkshake,Sobremesa,Leste,3,16.9
+60,2025-12-06,X-Salada,Lanche,Oeste,4,27.9
+61,2025-01-07,X-Burger,Lanche,Norte,1,24.9
+62,2025-02-08,X-Bacon,Lanche,Sul,2,29.9
+63,2025-03-09,Batata Frita,Acompanhamento,Leste,3,14.9
+64,2025-04-10,Refrigerante,Bebida,Oeste,4,6.9
+65,2025-05-11,Milkshake,Sobremesa,Norte,1,16.9
+66,2025-06-12,X-Salada,Lanche,Sul,2,27.9
+67,2025-07-13,X-Burger,Lanche,Leste,3,24.9
+68,2025-08-14,X-Bacon,Lanche,Oeste,4,29.9
+69,2025-09-15,Batata Frita,Acompanhamento,Norte,1,14.9
+70,2025-10-16,Refrigerante,Bebida,Sul,2,6.9
+71,2025-11-17,Milkshake,Sobremesa,Leste,3,16.9
+72,2025-12-18,X-Salada,Lanche,Oeste,4,27.9
+73,2025-01-19,X-Burger,Lanche,Norte,1,24.9
+74,2025-02-20,X-Bacon,Lanche,Sul,2,29.9
+75,2025-03-21,Batata Frita,Acompanhamento,Leste,3,14.9
+76,2025-04-22,Refrigerante,Bebida,Oeste,4,6.9
+77,2025-05-23,Milkshake,Sobremesa,Norte,1,16.9
+78,2025-06-24,X-Salada,Lanche,Sul,2,27.9
+79,2025-07-25,X-Burger,Lanche,Leste,3,24.9
+80,2025-08-26,X-Bacon,Lanche,Oeste,4,29.9
+81,2025-09-27,Batata Frita,Acompanhamento,Norte,1,14.9
+82,2025-10-01,Refrigerante,Bebida,Sul,2,6.9
+83,2025-11-02,Milkshake,Sobremesa,Leste,3,16.9
+84,2025-12-03,X-Salada,Lanche,Oeste,4,27.9
+85,2025-01-04,X-Burger,Lanche,Norte,1,24.9
+86,2025-02-05,X-Bacon,Lanche,Sul,2,29.9
+87,2025-03-06,Batata Frita,Acompanhamento,Leste,3,14.9
+88,2025-04-07,Refrigerante,Bebida,Oeste,4,6.9
+89,2025-05-08,Milkshake,Sobremesa,Norte,1,16.9
+90,2025-06-09,X-Salada,Lanche,Sul,2,27.9
+91,2025-07-10,X-Burger,Lanche,Leste,3,24.9
+92,2025-08-11,X-Bacon,Lanche,Oeste,4,29.9
+93,2025-09-12,Batata Frita,Acompanhamento,Norte,1,14.9
+94,2025-10-13,Refrigerante,Bebida,Sul,2,6.9
+95,2025-11-14,Milkshake,Sobremesa,Leste,3,16.9
+96,2025-12-15,X-Salada,Lanche,Oeste,4,27.9
+97,2025-01-16,X-Burger,Lanche,Norte,1,24.9
+98,2025-02-17,X-Bacon,Lanche,Sul,2,29.9
+99,2025-03-18,Batata Frita,Acompanhamento,Leste,3,14.9
+100,2025-04-19,Refrigerante,Bebida,Oeste,4,6.9
+101,2025-05-20,Milkshake,Sobremesa,Norte,1,16.9
+102,2025-06-21,X-Salada,Lanche,Sul,2,27.9
+103,2025-07-22,X-Burger,Lanche,Leste,3,24.9
+104,2025-08-23,X-Bacon,Lanche,Oeste,4,29.9
+105,2025-09-24,Batata Frita,Acompanhamento,Norte,1,14.9
+106,2025-10-25,Refrigerante,Bebida,Sul,2,6.9
+107,2025-11-26,Milkshake,Sobremesa,Leste,3,16.9
+108,2025-12-27,X-Salada,Lanche,Oeste,4,27.9
+109,2025-01-01,X-Burger,Lanche,Norte,1,24.9
+110,2025-02-02,X-Bacon,Lanche,Sul,2,29.9
+111,2025-03-03,Batata Frita,Acompanhamento,Leste,3,14.9
+112,2025-04-04,Refrigerante,Bebida,Oeste,4,6.9
+113,2025-05-05,Milkshake,Sobremesa,Norte,1,16.9
+114,2025-06-06,X-Salada,Lanche,Sul,2,27.9
+115,2025-07-07,X-Burger,Lanche,Leste,3,24.9
+116,2025-08-08,X-Bacon,Lanche,Oeste,4,29.9
+117,2025-09-09,Batata Frita,Acompanhamento,Norte,1,14.9
+118,2025-10-10,Refrigerante,Bebida,Sul,2,6.9
+119,2025-11-11,Milkshake,Sobremesa,Leste,3,16.9
+120,2025-12-12,X-Salada,Lanche,Oeste,4,27.9
+121,2025-01-13,X-Burger,Lanche,Norte,1,24.9
+122,2025-02-14,X-Bacon,Lanche,Sul,2,29.9
+123,2025-03-15,Batata Frita,Acompanhamento,Leste,3,14.9
+124,2025-04-16,Refrigerante,Bebida,Oeste,4,6.9
+125,2025-05-17,Milkshake,Sobremesa,Norte,1,16.9
+126,2025-06-18,X-Salada,Lanche,Sul,2,27.9
+127,2025-07-19,X-Burger,Lanche,Leste,3,24.9
+128,2025-08-20,X-Bacon,Lanche,Oeste,4,29.9
+129,2025-09-21,Batata Frita,Acompanhamento,Norte,1,14.9
+130,2025-10-22,Refrigerante,Bebida,Sul,2,6.9
+131,2025-11-23,Milkshake,Sobremesa,Leste,3,16.9
+132,2025-12-24,X-Salada,Lanche,Oeste,4,27.9
+133,2025-01-25,X-Burger,Lanche,Norte,1,24.9
+134,2025-02-26,X-Bacon,Lanche,Sul,2,29.9
+135,2025-03-27,Batata Frita,Acompanhamento,Leste,3,14.9
+136,2025-04-01,Refrigerante,Bebida,Oeste,4,6.9
+137,2025-05-02,Milkshake,Sobremesa,Norte,1,16.9
+138,2025-06-03,X-Salada,Lanche,Sul,2,27.9
+139,2025-07-04,X-Burger,Lanche,Leste,3,24.9
+140,2025-08-05,X-Bacon,Lanche,Oeste,4,29.9
+141,2025-09-06,Batata Frita,Acompanhamento,Norte,1,14.9
+142,2025-10-07,Refrigerante,Bebida,Sul,2,6.9
+143,2025-11-08,Milkshake,Sobremesa,Leste,3,16.9
+144,2025-12-09,X-Salada,Lanche,Oeste,4,27.9
+145,2025-01-10,X-Burger,Lanche,Norte,1,24.9
+146,2025-02-11,X-Bacon,Lanche,Sul,2,29.9
+147,2025-03-12,Batata Frita,Acompanhamento,Leste,3,14.9
+148,2025-04-13,Refrigerante,Bebida,Oeste,4,6.9
+149,2025-05-14,Milkshake,Sobremesa,Norte,1,16.9
+150,2025-06-15,X-Salada,Lanche,Sul,2,27.9
+151,2025-07-16,X-Burger,Lanche,Leste,3,24.9
+152,2025-08-17,X-Bacon,Lanche,Oeste,4,29.9
+153,2025-09-18,Batata Frita,Acompanhamento,Norte,1,14.9
+154,2025-10-19,Refrigerante,Bebida,Sul,2,6.9
+155,2025-11-20,Milkshake,Sobremesa,Leste,3,16.9
+156,2025-12-21,X-Salada,Lanche,Oeste,4,27.9
+157,2025-01-22,X-Burger,Lanche,Norte,1,24.9
+158,2025-02-23,X-Bacon,Lanche,Sul,2,29.9
+159,2025-03-24,Batata Frita,Acompanhamento,Leste,3,14.9
+160,2025-04-25,Refrigerante,Bebida,Oeste,4,6.9
+161,2025-05-26,Milkshake,Sobremesa,Norte,1,16.9
+162,2025-06-27,X-Salada,Lanche,Sul,2,27.9
+163,2025-07-01,X-Burger,Lanche,Leste,3,24.9
+164,2025-08-02,X-Bacon,Lanche,Oeste,4,29.9
+165,2025-09-03,Batata Frita,Acompanhamento,Norte,1,14.9
+166,2025-10-04,Refrigerante,Bebida,Sul,2,6.9
+167,2025-11-05,Milkshake,Sobremesa,Leste,3,16.9
+168,2025-12-06,X-Salada,Lanche,Oeste,4,27.9
+169,2025-01-07,X-Burger,Lanche,Norte,1,24.9
+170,2025-02-08,X-Bacon,Lanche,Sul,2,29.9
+171,2025-03-09,Batata Frita,Acompanhamento,Leste,3,14.9
+172,2025-04-10,Refrigerante,Bebida,Oeste,4,6.9
+173,2025-05-11,Milkshake,Sobremesa,Norte,1,16.9
+174,2025-06-12,X-Salada,Lanche,Sul,2,27.9
+175,2025-07-13,X-Burger,Lanche,Leste,3,24.9
+176,2025-08-14,X-Bacon,Lanche,Oeste,4,29.9
+177,2025-09-15,Batata Frita,Acompanhamento,Norte,1,14.9
+178,2025-10-16,Refrigerante,Bebida,Sul,2,6.9
+179,2025-11-17,Milkshake,Sobremesa,Leste,3,16.9
+180,2025-12-18,X-Salada,Lanche,Oeste,4,27.9
+181,2025-01-19,X-Burger,Lanche,Norte,1,24.9
+182,2025-02-20,X-Bacon,Lanche,Sul,2,29.9
+183,2025-03-21,Batata Frita,Acompanhamento,Leste,3,14.9
+184,2025-04-22,Refrigerante,Bebida,Oeste,4,6.9
+185,2025-05-23,Milkshake,Sobremesa,Norte,1,16.9
+186,2025-06-24,X-Salada,Lanche,Sul,2,27.9
+187,2025-07-25,X-Burger,Lanche,Leste,3,24.9
+188,2025-08-26,X-Bacon,Lanche,Oeste,4,29.9
+189,2025-09-27,Batata Frita,Acompanhamento,Norte,1,14.9
+190,2025-10-01,Refrigerante,Bebida,Sul,2,6.9
+191,2025-11-02,Milkshake,Sobremesa,Leste,3,16.9
+192,2025-12-03,X-Salada,Lanche,Oeste,4,27.9
+193,2025-01-04,X-Burger,Lanche,Norte,1,24.9
+194,2025-02-05,X-Bacon,Lanche,Sul,2,29.9
+195,2025-03-06,Batata Frita,Acompanhamento,Leste,3,14.9
+196,2025-04-07,Refrigerante,Bebida,Oeste,4,6.9
+197,2025-05-08,Milkshake,Sobremesa,Norte,1,16.9
+198,2025-06-09,X-Salada,Lanche,Sul,2,27.9
+199,2025-07-10,X-Burger,Lanche,Leste,3,24.9
+200,2025-08-11,X-Bacon,Lanche,Oeste,4,29.9

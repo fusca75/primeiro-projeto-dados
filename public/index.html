@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Doce Afeto | Painel de vendas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+</head>
+<body>
+  <main class="container">
+    <header class="topo">
+      <div>
+        <h1><span class="icone-cupcake" role="img" aria-label="Cupcake">🧁</span> Doce Afeto</h1>
+        <p class="frase-marca">Adoçamos seu evento, com a imaginação e o sabor de seus melhores sonhos</p>
+        <p class="desde-marca">Desde 2020</p>
+      </div>
+      <div class="bandeiras-local" aria-label="Brasil, Santa Bárbara d’Oeste e Estado de São Paulo">
+        <span class="bandeira municipio-sbo" role="img" aria-label="Bandeira de Santa Bárbara d’Oeste"><i></i></span>
+        <span class="bandeira sao-paulo" role="img" aria-label="Bandeira do Estado de São Paulo"><i>SP</i></span>
+      </div>
+      <div class="acoes-topo">
+        <span id="origemDados" class="badge">Dados demonstrativos</span>
+        <label class="btn btn-primary" for="arquivoCsv">Importar CSV</label>
+        <input id="arquivoCsv" type="file" accept=".csv,text/csv" hidden>
+        <small class="creditos">Instrutor Platini<br>SENAI Americana - SP<br>Desenvolvido e criado por Alex Gomes de Oliveira</small>
+      </div>
+    </header>
+
+    <section class="aviso" aria-label="Informação sobre a base">
+      <span class="icone">i</span>
+      <p id="statusBase">A base demonstrativa tem 200 vendas fictícias. Você pode substituí-la por um CSV local a qualquer momento.</p>
+    </section>
+
+    <a class="adesivo-social" href="https://casadacriancasbo.org.br" target="_blank" rel="noopener noreferrer" aria-label="Conheça a Casa da Criança de Santa Bárbara d'Oeste">
+      <span class="simbolo-social"><img src="cropped-logo.png" alt="Logo da Casa da Criança de Santa Bárbara d’Oeste"></span>
+      <span><strong>Doce Afeto apoia</strong><br><b>Casa da Criança</b><small>Santa Bárbara d’Oeste • saiba mais ↗</small></span>
+    </a>
+    <div class="adesivo-social" aria-label="A Doce Afeto apoia a Associação Vida e Sobriedade de Santa Bárbara d’Oeste">
+      <span class="simbolo-social"><img src="vida%20e%20sobriedade.jpg" alt="Logo da Associação Vida e Sobriedade de Santa Bárbara d’Oeste"></span>
+      <span><strong>Doce Afeto apoia</strong><br><b>Associação Vida e Sobriedade</b><small>Santa Bárbara d’Oeste</small></span>
+    </div>
+
+    <section class="painel filtros" aria-labelledby="titulo-filtros">
+      <div class="section-heading">
+        <div><p class="eyebrow">CONTROLES</p><h2 id="titulo-filtros">Filtros da análise</h2></div>
+        <button id="limparFiltros" class="btn btn-secondary" type="button">Limpar filtros</button>
+      </div>
+      <div class="filtros-grid">
+        <div class="campo"><label for="dataInicial">Data inicial</label><input id="dataInicial" type="date"></div>
+        <div class="campo"><label for="dataFinal">Data final</label><input id="dataFinal" type="date"></div>
+        <div class="campo"><label for="filtroCategoria">Categoria</label><select id="filtroCategoria"><option value="">Todas as categorias</option></select></div>
+        <div class="campo"><label id="labelDimensao" for="filtroDimensao">Região</label><select id="filtroDimensao"><option value="">Todas</option></select></div>
+      </div>
+      <p id="mensagemValidacao" class="mensagem" role="status"></p>
+    </section>
+
+    <section class="metricas" aria-label="Indicadores principais">
+      <article class="metrica"><span>Faturamento total</span><strong id="faturamentoTotal">R$ 0,00</strong><small>das vendas filtradas</small></article>
+      <article class="metrica"><span>Quantidade de vendas</span><strong id="quantidadeVendas">0</strong><small>IDs únicos</small></article>
+      <article class="metrica"><span>Unidades vendidas</span><strong id="unidadesVendidas">0</strong><small>soma das quantidades</small></article>
+      <article class="metrica destaque"><span>Ticket médio</span><strong id="ticketMedio">R$ 0,00</strong><small>faturamento ÷ vendas</small></article>
+    </section>
+
+    <section class="graficos" aria-label="Gráficos da análise">
+      <article class="painel grafico-principal"><div class="section-heading"><div><p class="eyebrow">EVOLUÇÃO</p><h2>Faturamento mensal</h2><small class="legenda-melhoria"><i></i> ponto vermelho: abaixo da média · <b class="linha-media"></b> linha verde: média do período</small></div><span class="unidade">em R$</span></div><div class="canvas-wrap"><canvas id="graficoMensal" aria-label="Barras do faturamento mensal com linha de média"></canvas></div></article>
+      <article class="painel"><div class="section-heading"><div><p class="eyebrow">COMPARAÇÃO</p><h2>Receita por categoria</h2><small class="legenda-melhoria"><i></i> ponto vermelho: abaixo da média</small></div><span class="unidade">em R$</span></div><div class="canvas-wrap"><canvas id="graficoCategoria" aria-label="Barras de receita por categoria"></canvas></div></article>
+      <article class="painel"><div class="section-heading"><div><p class="eyebrow">COMPARAÇÃO</p><h2 id="tituloDimensao">Receita por região</h2><small class="legenda-melhoria"><i></i> ponto vermelho: abaixo da média</small></div><span class="unidade">em R$</span></div><div class="canvas-wrap"><canvas id="graficoDimensao" aria-label="Barras de receita por região"></canvas></div></article>
+      <article class="painel grafico-principal"><div class="section-heading"><div><p class="eyebrow">PLANEJAMENTO</p><h2>Itens por dia para alcançar a média</h2><small class="legenda-media">Região/canal + produto · itens adicionais necessários por dia</small></div><span class="unidade">em itens/dia</span></div><div class="canvas-wrap canvas-planejamento"><canvas id="graficoNecessidade" aria-label="Barras de itens adicionais por dia por região e produto"></canvas></div></article>
+    </section>
+
+    <section class="painel tabela-painel" aria-labelledby="titulo-tabela">
+      <div class="section-heading tabela-cabecalho"><div><p class="eyebrow">DETALHAMENTO</p><h2 id="titulo-tabela">Vendas filtradas</h2></div><div class="tabela-acoes"><span id="contadorRegistros">0 registros</span><button id="exportarCsv" class="btn btn-secondary" type="button">Exportar CSV</button></div></div>
+      <div class="busca"><label for="pesquisaTabela">Pesquisar na tabela</label><input id="pesquisaTabela" type="search" placeholder="Produto, categoria, região..."></div>
+      <p id="mensagemVazia" class="vazio" hidden>Nenhum registro corresponde aos filtros atuais.</p>
+      <div class="tabela-scroll"><table><thead><tr><th><button class="ordenar" data-chave="data">Data <span>↕</span></button></th><th><button class="ordenar" data-chave="produto">Produto <span>↕</span></button></th><th><button class="ordenar" data-chave="categoria">Categoria <span>↕</span></button></th><th><button class="ordenar" data-chave="dimensao">Região <span>↕</span></button></th><th>Qtd.</th><th>Preço unit.</th><th>Faturamento</th></tr></thead><tbody id="corpoTabela"></tbody></table></div>
+    </section>
+
+    <footer><p>Dashboard educacional • Os resultados são descritivos e não indicam causalidade.</p><p>As bibliotecas de gráficos e importação são carregadas por CDN e exigem internet.</p></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
